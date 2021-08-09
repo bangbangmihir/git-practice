@@ -63,3 +63,13 @@ i{
     text-align: center;
     
 }
+
+.career{
+    background-color: aquamarine;
+    color: rgb(207, 131, 32);
+    width: 100%;
+    padding: 10px 6px;
+    text-align: center;
+    text-decoration: dashed;
+    border: 2px solid red;
+}
