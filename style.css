@@ -15,10 +15,10 @@ body{
     
     text-align: center;
     font-size: large;
-    font: 1em sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20px;
-    color: rgb(238, 197, 120);
+    color: black;
     margin-top: 20px;       
 }
 .nav-list{
@@ -26,14 +26,21 @@ body{
     font: 1em sans-serif;
     font-weight: bold;
     font-size: 20px;
-    color: rgb(238, 197, 120);
-    margin-top: 20px;
-    
+    color: black;
+    padding-left: 90px;
+    margin-top: 20px;   
 
 }
+
 a{
     margin: 30px;
     cursor: pointer;
+    text-decoration: none;
+    color:black ;
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.342);
+    text-decoration: none;
 }
 i{
     margin: 12px;
@@ -75,4 +82,7 @@ i{
     text-align: center;
     text-decoration: dashed;
     border: 2px solid red;
+}
+i:hover{
+    color: lightcoral;
 }
